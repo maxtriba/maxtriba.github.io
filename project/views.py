@@ -4,7 +4,7 @@ from app import app, pages
 
 @app.route('/')
 def index():
-	posts = [page for page in pages if 'post' in page.meta]
+	posts = [page for page in pages if 'nav' in page.meta]
 	sorted_posts = sorted(posts, reverse=True,
 		key=lambda page: page.meta['date'])
 	return render_template('base.html',pages=sorted_posts)

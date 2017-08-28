@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	{% for page in pages %}
+	  <ul>
+	  	<a href="{{ url_for('page', path=page.path) }}">{{ page.meta.title }}</a>
+	  </ul>
+	{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,27 @@
+/* Custom CSS to override bootstrap */
+
+@import url('https://rsms.me/interface/interface.css');
+
+body {
+	font-family: Interface, sans-serif;
+	background-color: #FCFCFC;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+h1 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 10px;
+}

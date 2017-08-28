@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Max Triba</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" media="screen" href = "{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" media="screen" href = "{{ url_for('static', filename='css/custom.css') }}">
+    
+</head>
+<body>
+	
+	<div class="container">
+	
+		<div class="row">
+
+			<div class="col-6 col-md-4">
+			
+				<h1><a href="{{ url_for('index') }}" class="h1">Maximillian Triba</a></h1>
+			
+				{% for page in pages %}
+					<a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+				{% endfor %}
+	
+			</div>
+	
+			<div class="col-6 col-md-4">
+			
+				{% block content %}
+				{% endblock content %}
+	
+			</div>
+	
+		</div>
+	
+	</div>
+	
+	
+	<div class="padding">
+	</div>
+
+</body>
+</html>

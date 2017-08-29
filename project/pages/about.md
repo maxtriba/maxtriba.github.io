@@ -1,6 +1,7 @@
 title: About
 date: 2016-02-10
 nav: true
+post: true
 
 My name is Max Triba and I'm a senior business intelligence analyst in Omaha, Nebraska. I Program in R, Python, SQL (Server and Oracle), and I'm learning Swift. I'm interested in applied math, econometrics, and risk management. 
 

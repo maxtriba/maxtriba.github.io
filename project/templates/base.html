@@ -21,9 +21,15 @@
 				<!-- <h1><a href="{{ url_for('index') }}" class="h1">Max Triba</a></h1> -->
 				
 				<h1>Max Triba</h1>
+				
+				<ul>
+					<a href="http://twitter.com/maxtriba">Twitter </a>
+				</ul>
 			
-				{% for page in pages %}
-					<a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+				{% for page in pages if 'nav' in page.meta %}
+					<ul>
+						<a href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a>
+					</ul>
 				{% endfor %}
 	
 			</div>

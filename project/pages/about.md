@@ -7,7 +7,3 @@ My name is Max Triba and I'm a senior business intelligence analyst in Omaha, Ne
 I'm into [photography](http://instagram.com/maxtriba), fast prime lenses, and I like a [fudgy](https://bluebottlecoffee.com/store/giant-steps) coffee bean.
 
 You can also find me on [Twitter](https://twitter.com/maxtriba). 
-
-
-
-

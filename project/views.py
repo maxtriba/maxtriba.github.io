@@ -7,7 +7,7 @@ def index():
 	posts = [page for page in pages]
 	sorted_posts = sorted(posts, reverse=True,
 		key=lambda page: page.meta['date'])
-	return render_template('base.html', pages=sorted_posts)
+	return render_template('index.html', pages=sorted_posts)
 
 @app.route('/<path:path>/')
 def page(path):

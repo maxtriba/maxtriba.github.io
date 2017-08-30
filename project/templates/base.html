@@ -27,14 +27,6 @@
 	
 			</div>
 	
-			<div class="col-4 col-md-4">
-				
-				{% for page in pages if 'nav' in page.meta %}
-					<li><a class="nav-link" href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a></li>
-				{% endfor %}
-	
-			</div>
-	
 		</div>
 	
 	</div>

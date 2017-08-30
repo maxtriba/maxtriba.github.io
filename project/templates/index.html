@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	{% for page in pages if 'post' in page.meta %}
+	
+	  <p>{{ page }}</p>
+	  
+	{% endfor %}
+
+{% endblock %}

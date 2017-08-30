@@ -4,9 +4,9 @@
 
 body {
 	font-family: Interface, sans-serif;
-	background-color: #FCFCFC;
-	margin-top: 10%;
-	margin-left: 10%;
+	background-color: #FFFFFF; /* FCFCFC */
+	margin-top: 5%;
+	margin-left: 5%;
 }
 
 .container {
@@ -16,24 +16,21 @@ body {
 
 
 h1 {
-	font-size: 14px;
+	font-size: 22px;
 	font-style: normal;
   	font-weight: 500;
+  	color: #FFFFFF;
+  	background-color: #000000;
 }
 
 p {
-	font-size: 10px;
+	font-size: 18px;
 	font-style: normal;
   	font-weight: 400;
 }
 
-a {
-
-
-}
-
 .nav-link {
-	font-size: 12px;
+	font-size: 18px;
 	font-style: normal;
   	font-weight: 400;
 }

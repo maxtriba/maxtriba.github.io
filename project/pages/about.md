@@ -1,10 +1,10 @@
 title: About
-date: 2016-02-10
-nav: true
+date: 2017-08-29
+nav: false
 post: true
 
-My name is Max Triba and I'm a senior business intelligence analyst in Omaha, Nebraska. I Program in R, Python, SQL (Server and Oracle), and I'm learning Swift. I'm interested in applied math, econometrics, and risk management. 
+#Hello
+I am a data scientist currently residing in Omaha, Nebraska. I specialize in large scale 
+time series analysis with applications in supply - demand optimization. 
 
-I'm into [photography](http://instagram.com/maxtriba), fast prime lenses, and I like a [fudgy](https://bluebottlecoffee.com/store/giant-steps) coffee bean.
-
-You can also find me on [Twitter](https://twitter.com/maxtriba). 
+The best way to contact me is via [Twitter](http://twitter.com/maxtriba).

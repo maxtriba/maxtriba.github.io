@@ -3,9 +3,9 @@
 {% block content %}
 
 	{% for page in pages if 'post' in page.meta %}
-	  <ul>
-	  	<a href="{{ url_for('page', path=page.path) }}">{{ page.meta.title }}</a>
-	  </ul>
+	
+	  <p>{{ page }}</p>
+	  
 	{% endfor %}
 
 {% endblock %}

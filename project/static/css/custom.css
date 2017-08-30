@@ -19,6 +19,9 @@ ul {
     padding: 0px;
 }
 
+li {
+	padding: 0px;
+}
 
 h1 {
 	font-size: 36px;

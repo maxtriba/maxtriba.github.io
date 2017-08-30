@@ -16,27 +16,22 @@
 	
 		<div class="row">
 
-			<div class="col-6 col-md-4">
-			
-				<h1><a href="{{ url_for('index') }}" class="h1">MAX TRIBA</a></h1>
-											
+			<div class="col-8 col-md-4">
+														
 				<ul>
-				
-					<li><a class="nav-link" href="http://twitter.com/maxtriba">Twitter </a></li>
-					<li><a class="nav-link" href="http://instagram.com/maxtriba">Instagram </a></li>
-			
-				{% for page in pages if 'nav' in page.meta %}
-					<li><a class="nav-link" href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a></li>
-				{% endfor %}
+
+				{% block content %}
+				{% endblock content %}
 				
 				</ul>
 	
 			</div>
 	
-			<div class="col-6 col-md-4">
-			
-				{% block content %}
-				{% endblock content %}
+			<div class="col-4 col-md-4">
+				
+				{% for page in pages if 'nav' in page.meta %}
+					<li><a class="nav-link" href="{{ url_for('page', path=page.path) }}">{{ page.title }}</a></li>
+				{% endfor %}
 	
 			</div>
 	

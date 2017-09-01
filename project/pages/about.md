@@ -10,7 +10,7 @@ I think plots in base R are beautiful. Especially when [styled correctly.](http:
 
 I'm interested in [photography](http://instagram.com/maxtriba).
 
-I started a [programming meetup](https://www.facebook.com/javanotjava/) that meets on Thursday.
-We're currently discussing the algorithmically trading crypto-currencies using techniques based on [optimizing CVAR.](https://arxiv.org/pdf/1412.7647.pdf)
+I started a [programming meetup](https://www.facebook.com/javanotjava/) that meets every Thursday.
+We're currently discussing algorithmically trading crypto-currencies using techniques based on [optimizing CVAR.](https://arxiv.org/pdf/1412.7647.pdf)
 
 The best way to contact me is via [Twitter](http://twitter.com/maxtriba).

@@ -1,9 +1,9 @@
 /* Custom CSS to override bootstrap */
 
-@import url('https://rsms.me/interface/interface.css');
+@import url('https://rsms.me/inter/inter-ui.css');
 
 body {
-	font-family: Interface, sans-serif;
+	font-family: 'Inter UI', sans-serif;
 	background-color: #FFFFFF; /* FCFCFC */
 	margin-top: 5%;
 	margin-left: 5%;
